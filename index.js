@@ -90,22 +90,22 @@ class Collector {
 
   timing(...args) {
     if (!this.client) return;
-    client.timing(...args);
+    this.client.timing(...args);
   }
 
   gauge(...args) {
     if (!this.client) return;
-    client.gauge(...args);
+    this.client.gauge(...args);
   }
 
   histogram(...args) {
     if (!this.client) return;
-    client.histogram(...args);
+    this.client.histogram(...args);
   }
 
   set(...args) {
     if (!this.client) return;
-    client.set(...args);
+    this.client.set(...args);
   }
 }
 
