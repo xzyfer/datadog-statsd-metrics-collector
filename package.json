@@ -1,0 +1,32 @@
+{
+  "name": "datadog-statsd-metrics-collector",
+  "version": "0.0.0",
+  "description": "Collect, rollup, and batch Datadog statsd metrics",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xzyfer/datadog-statsd-metrics-collector.git"
+  },
+  "keywords": [
+    "datadog",
+    "statsd",
+    "collector",
+    "batch"
+  ],
+  "author": "xzyfer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xzyfer/datadog-statsd-metrics-collector/issues"
+  },
+  "homepage": "https://github.com/xzyfer/datadog-statsd-metrics-collector#readme",
+  "dependencies": {
+    "lodash.throttle": "^4.1.1",
+    "node-dogstatsd": "0.0.7"
+  },
+  "devDependencies": {
+    "jest": "^24.0.0"
+  }
+}
