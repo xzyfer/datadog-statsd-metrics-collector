@@ -1,6 +1,6 @@
 {
   "name": "datadog-statsd-metrics-collector",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Collect, rollup, and batch Datadog statsd metrics",
   "main": "index.js",
   "scripts": {
